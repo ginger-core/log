@@ -1,8 +1,10 @@
 package logger
 
 import (
+	"context"
 	"fmt"
 
+	composition "github.com/ginger-core/compound/context"
 	"go.uber.org/zap/zapcore"
 )
 
@@ -29,6 +31,18 @@ func NewEntry(l Logger) Entry {
 
 func (l *entry) Clone() Logger {
 	return l.clone()
+}
+
+func (l *entry) WithContext(ctx context.Context) Logger {
+	data := composition.GetContextData(ctx)
+	if len(data) == 0 {
+		return l
+	}
+	f := make(Field)
+	for k, v := range data {
+		f[string(k)] = v
+	}
+	return l.With(f)
 }
 
 func (l *entry) With(field Field) Logger {

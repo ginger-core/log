@@ -3,6 +3,7 @@ module github.com/ginger-core/log
 go 1.20
 
 require (
+	github.com/ginger-core/compound v0.0.0-20230608151919-2963b75416c3
 	github.com/ginger-core/compound/registry v0.0.0-20230608151919-2963b75416c3
 	go.uber.org/zap v1.24.0
 )

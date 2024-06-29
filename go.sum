@@ -59,6 +59,8 @@ github.com/envoyproxy/protoc-gen-validate v0.1.0/go.mod h1:iSmxcyjqTsJpI2R4NaDN7
 github.com/frankban/quicktest v1.14.4 h1:g2rn0vABPOOXmZUj+vbmUp0lPoXEMuhTpIluN0XL9UY=
 github.com/fsnotify/fsnotify v1.6.0 h1:n+5WquG0fcWoWp6xPWfHdbskMCQaFnG6PfBrh1Ky4HY=
 github.com/fsnotify/fsnotify v1.6.0/go.mod h1:sl3t1tCWJFWoRz9R8WJCbQihKKwmorjAbSClcnxKAGw=
+github.com/ginger-core/compound v0.0.0-20230608151919-2963b75416c3 h1:2c+nHExV9IB+hvbzk50zoYxaVLcm2tcdo3GOeEIn6Nw=
+github.com/ginger-core/compound v0.0.0-20230608151919-2963b75416c3/go.mod h1:LrbpmjjAXXV8C43EioiLtKhrFy2uLrHRp+Hjin2a+Fc=
 github.com/ginger-core/compound/registry v0.0.0-20230608151919-2963b75416c3 h1:9vWOswN0GKYE2bOOB/LeB1/WBdR0N+4eh9odxv6/Vxk=
 github.com/ginger-core/compound/registry v0.0.0-20230608151919-2963b75416c3/go.mod h1:iGQS/Lk9CnjRmMnRlEM4mQNnndpa+h+u9aVj0Fjyuoo=
 github.com/ginger-core/errors v0.0.0-20230608125708-339a693bbd29 h1:WCtEKolH7WUKW5N0mAm5Hs7f9j1+p4xkbyxcs+OWEhQ=

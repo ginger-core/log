@@ -1,11 +1,15 @@
 package logger
 
 import (
+	"context"
+
 	"go.uber.org/zap"
 )
 
 type Logger interface {
 	Clone() Logger
+
+	WithContext(ctx context.Context) Logger
 
 	With(field Field) Logger
 	WithSource(source string) Logger
